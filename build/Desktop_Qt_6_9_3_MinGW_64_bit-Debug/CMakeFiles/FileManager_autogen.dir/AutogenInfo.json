@@ -347,9 +347,33 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/elkin/OneDrive/Documentos/FileManager/linkedlist.h",
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/arbolnario.h",
 			"MU",
-			"EWIEGA46WW/moc_linkedlist.cpp",
+			"EWIEGA46WW/moc_arbolnario.cpp",
+			null
+		],
+		[
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/controlador.h",
+			"MU",
+			"EWIEGA46WW/moc_controlador.cpp",
+			null
+		],
+		[
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/directory.h",
+			"MU",
+			"EWIEGA46WW/moc_directory.cpp",
+			null
+		],
+		[
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/doublelinked.h",
+			"MU",
+			"EWIEGA46WW/moc_doublelinked.cpp",
+			null
+		],
+		[
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/file.h",
+			"MU",
+			"EWIEGA46WW/moc_file.cpp",
 			null
 		],
 		[
@@ -359,9 +383,15 @@
 			null
 		],
 		[
-			"C:/Users/elkin/OneDrive/Documentos/FileManager/node.h",
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/nodo.h",
 			"MU",
-			"EWIEGA46WW/moc_node.cpp",
+			"EWIEGA46WW/moc_nodo.cpp",
+			null
+		],
+		[
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/originfile.h",
+			"MU",
+			"EWIEGA46WW/moc_originfile.cpp",
 			null
 		]
 	],
@@ -437,17 +467,38 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/elkin/OneDrive/Documentos/FileManager/linkedlist.cpp",
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/arbolnario.cpp",
 			"MU",
 			null
 		],
+		[
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/controlador.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/directory.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/doublelinked.cpp",
+			"MU",
+			null
+		],
+		[ "C:/Users/elkin/OneDrive/Documentos/FileManager/file.cpp", "MU", null ],
 		[ "C:/Users/elkin/OneDrive/Documentos/FileManager/main.cpp", "MU", null ],
 		[
 			"C:/Users/elkin/OneDrive/Documentos/FileManager/mainwindow.cpp",
 			"MU",
 			null
 		],
-		[ "C:/Users/elkin/OneDrive/Documentos/FileManager/node.cpp", "MU", null ]
+		[ "C:/Users/elkin/OneDrive/Documentos/FileManager/nodo.cpp", "MU", null ],
+		[
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/originfile.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

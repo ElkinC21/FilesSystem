@@ -23,8 +23,15 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(FileManager
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        node.h node.cpp
-        linkedlist.h linkedlist.cpp
+        originfile.h originfile.cpp
+        file.h file.cpp
+        directory.h directory.cpp
+        nodo.h nodo.cpp
+        doublelinked.h doublelinked.cpp
+        arbolnario.h arbolnario.cpp
+        controlador.h controlador.cpp
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET FileManager APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
