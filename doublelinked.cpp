@@ -31,7 +31,7 @@ OriginFile* DoubleLinked::controlarBusqueda(OriginFile* actual, OriginFile* sele
         delete tmp;
     }
 
-
+//sino es igual se crea y se actualiza actual
     it->next = new Nodo(seleccionado, it);
 
 

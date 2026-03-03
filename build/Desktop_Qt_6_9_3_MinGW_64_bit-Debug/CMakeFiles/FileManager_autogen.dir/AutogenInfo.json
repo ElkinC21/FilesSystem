@@ -371,6 +371,12 @@
 			null
 		],
 		[
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/editortexto.h",
+			"MU",
+			"EWIEGA46WW/moc_editortexto.cpp",
+			null
+		],
+		[
 			"C:/Users/elkin/OneDrive/Documentos/FileManager/file.h",
 			"MU",
 			"EWIEGA46WW/moc_file.cpp",
@@ -483,6 +489,11 @@
 		],
 		[
 			"C:/Users/elkin/OneDrive/Documentos/FileManager/doublelinked.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/elkin/OneDrive/Documentos/FileManager/editortexto.cpp",
 			"MU",
 			null
 		],

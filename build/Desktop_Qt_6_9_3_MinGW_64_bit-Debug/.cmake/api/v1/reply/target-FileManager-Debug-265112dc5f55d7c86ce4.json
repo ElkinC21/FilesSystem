@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 70,
+				"line" : 72,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 53,
+				"line" : 55,
 				"parent" : 0
 			},
 			{
@@ -384,18 +384,20 @@
 				10,
 				12,
 				14,
-				16
+				16,
+				18,
+				20
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "FileManager_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "FileManager_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "FileManager_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "FileManager::@6890427a1f51a3e7e1df",
@@ -513,7 +515,9 @@
 				10,
 				12,
 				14,
-				16
+				16,
+				18,
+				20
 			]
 		},
 		{
@@ -527,7 +531,9 @@
 				11,
 				13,
 				15,
-				17
+				17,
+				19,
+				21
 			]
 		},
 		{
@@ -541,14 +547,14 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				18
+				22
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				19
+				23
 			]
 		}
 	],
@@ -647,6 +653,28 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "arbolnario.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "controlador.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "controlador.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "editortexto.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "editortexto.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

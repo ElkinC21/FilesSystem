@@ -30,6 +30,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         doublelinked.h doublelinked.cpp
         arbolnario.h arbolnario.cpp
         controlador.h controlador.cpp
+        editortexto.h editortexto.cpp
 
 
     )

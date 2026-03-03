@@ -1,7 +1,7 @@
 #include "arbolnario.h"
 
 ArbolNario::ArbolNario() {
-    this->root=new Directory("", QDateTime(), QDateTime(), true, "", QDateTime(),0);
+    this->root=new Directory("", QDateTime(), QDateTime(), true, "/root", QDateTime(),0);
 }
 void ArbolNario::InsertarHijo(OriginFile* padre, OriginFile* nuevoHijo) {
 

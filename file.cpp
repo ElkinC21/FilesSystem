@@ -9,3 +9,7 @@ int File::getSize(){
 int File::getdataBytes(){
     return ((size+(4096-1))/4096)*4096;
 }
+
+OriginFile::~OriginFile() {
+
+}

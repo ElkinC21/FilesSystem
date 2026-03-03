@@ -6,43 +6,116 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>975</width>
+    <height>623</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>90</y>
-      <width>113</width>
-      <height>28</height>
+      <x>40</x>
+      <y>10</y>
+      <width>861</width>
+      <height>51</height>
      </rect>
     </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset theme="QIcon::ThemeIcon::GoPrevious"/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset theme="QIcon::ThemeIcon::GoNext"/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>60</y>
+      <width>293</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Lista</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Iconos</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Iconos Grandes</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>149</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="text">
-     <string>MI BOMBO</string>
+     <string>Informacion del archivo</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>25</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuSaid_pije_culero">
-    <property name="title">
-     <string>Said pije culero</string>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>110</y>
+      <width>1011</width>
+      <height>511</height>
+     </rect>
     </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+    <widget class="QListWidget" name="listWidget"/>
+    <widget class="QListWidget" name="listWidget_2"/>
+    <widget class="QListWidget" name="listWidget_3"/>
    </widget>
-   <addaction name="menuSaid_pije_culero"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
